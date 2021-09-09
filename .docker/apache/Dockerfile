@@ -4,7 +4,6 @@ FROM httpd:2.4-alpine
 RUN apk update; \
     apk upgrade;
 
-EXPOSE 9000
 
 # For easy navigating add oh my zsh and it's deps
 RUN apk -q add curl \
@@ -20,3 +19,6 @@ RUN touch /tmp/new_apache.conf; \
     cat /usr/local/apache2/conf/original/httpd.conf > /tmp/new_apache.conf; \
     echo "Include /usr/local/apache2/conf.d/apache.conf" >> /tmp/new_apache.conf; \
     mv /tmp/new_apache.conf /usr/local/apache2/conf/httpd.conf;
+
+
+EXPOSE 80

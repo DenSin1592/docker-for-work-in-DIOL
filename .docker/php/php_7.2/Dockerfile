@@ -13,6 +13,7 @@ RUN apk add \
     bash\
     nano
 
+RUN docker-php-ext-install pdo pdo_mysql pcntl
 RUN docker-php-ext-configure gd --with-freetype-dir=/usr/include/ --with-jpeg-dir=/usr/include/ --with-png-dir=/usr/include/
 RUN docker-php-ext-install -j$(getconf _NPROCESSORS_ONLN) gd
 
@@ -43,13 +44,28 @@ RUN echo "xdebug.remote_port=9001" >> /usr/local/etc/php/conf.d/docker-php-ext-x
 #    && echo "opcache.interned_strings_buffer=16" >> /usr/local/etc/php/conf.d/opcache.ini \
 #    && echo "opcache.fast_shutdown=1" >> /usr/local/etc/php/conf.d/opcache.ini
 
-RUN docker-php-ext-install pdo pdo_mysql pcntl
-
 RUN curl -sS https://getcomposer.org/installer | \
     php -- --install-dir=/usr/bin/ --filename=composer
 
 ENV COMPOSER_ALLOW_SUPERUSER=1
 
-ADD php.ini /usr/local/etc/php/php.ini
+ADD ./.docker/php/php_7.2/php.ini /usr/local/etc/php/php.ini
 
 WORKDIR /var/www
+
+ENV USER=denisl
+ENV UID=1000
+ENV GID=1000
+
+RUN addgroup -g "$GID" "$USER"
+RUN adduser \
+    --disabled-password \
+    --gecos "" \
+    --ingroup "$USER" \
+    --no-create-home \
+    --uid "$UID" \
+    "$USER"
+
+COPY . /var/www
+COPY --chown="$USER":"$USER" . /var/www
+USER "$USER"
