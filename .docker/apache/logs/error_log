@@ -1,0 +1,101 @@
+[Sat Apr 24 15:29:17.720453 2021] [mpm_event:notice] [pid 1:tid 140269355924296] AH00489: Apache/2.4.46 (Unix) configured -- resuming normal operations
+[Sat Apr 24 15:29:17.720644 2021] [core:notice] [pid 1:tid 140269355924296] AH00094: Command line: 'httpd -D FOREGROUND'
+[Sat Apr 24 15:29:55.083352 2021] [mpm_event:notice] [pid 1:tid 140269355924296] AH00492: caught SIGWINCH, shutting down gracefully
+AH00112: Warning: DocumentRoot [/var/www/public] does not exist
+[Sat Apr 24 15:30:55.518369 2021] [mpm_event:notice] [pid 1:tid 140211682147144] AH00489: Apache/2.4.46 (Unix) configured -- resuming normal operations
+[Sat Apr 24 15:30:55.518569 2021] [core:notice] [pid 1:tid 140211682147144] AH00094: Command line: 'httpd -D FOREGROUND'
+[Sat Apr 24 15:31:39.299538 2021] [mpm_event:notice] [pid 1:tid 140211682147144] AH00492: caught SIGWINCH, shutting down gracefully
+AH00112: Warning: DocumentRoot [/var/www/public] does not exist
+[Sat Apr 24 15:31:43.829619 2021] [mpm_event:notice] [pid 1:tid 140178421308232] AH00489: Apache/2.4.46 (Unix) configured -- resuming normal operations
+[Sat Apr 24 15:31:43.829702 2021] [core:notice] [pid 1:tid 140178421308232] AH00094: Command line: 'httpd -D FOREGROUND'
+[Sat Apr 24 15:33:03.366801 2021] [mpm_event:notice] [pid 1:tid 140178421308232] AH00492: caught SIGWINCH, shutting down gracefully
+[Sat Apr 24 15:34:16.379773 2021] [mpm_event:notice] [pid 1:tid 140247968090952] AH00489: Apache/2.4.46 (Unix) configured -- resuming normal operations
+[Sat Apr 24 15:34:16.379870 2021] [core:notice] [pid 1:tid 140247968090952] AH00094: Command line: 'httpd -D FOREGROUND'
+[Sat Apr 24 15:35:05.495356 2021] [mpm_event:notice] [pid 1:tid 140247968090952] AH00492: caught SIGWINCH, shutting down gracefully
+[Sat Apr 24 15:35:23.984577 2021] [mpm_event:notice] [pid 1:tid 140237493078856] AH00489: Apache/2.4.46 (Unix) configured -- resuming normal operations
+[Sat Apr 24 15:35:23.984697 2021] [core:notice] [pid 1:tid 140237493078856] AH00094: Command line: 'httpd -D FOREGROUND'
+[Sat Apr 24 15:36:29.659141 2021] [mpm_event:notice] [pid 1:tid 140237493078856] AH00492: caught SIGWINCH, shutting down gracefully
+AH00112: Warning: DocumentRoot [/var/www/html] does not exist
+[Sat Apr 24 15:37:57.075901 2021] [mpm_event:notice] [pid 1:tid 140286480010056] AH00489: Apache/2.4.46 (Unix) configured -- resuming normal operations
+[Sat Apr 24 15:37:57.075956 2021] [core:notice] [pid 1:tid 140286480010056] AH00094: Command line: 'httpd -D FOREGROUND'
+[Sat Apr 24 15:38:41.715718 2021] [mpm_event:notice] [pid 1:tid 140286480010056] AH00492: caught SIGWINCH, shutting down gracefully
+[Sat Apr 24 15:38:53.287113 2021] [mpm_event:notice] [pid 1:tid 139849812364104] AH00489: Apache/2.4.46 (Unix) configured -- resuming normal operations
+[Sat Apr 24 15:38:53.287245 2021] [core:notice] [pid 1:tid 139849812364104] AH00094: Command line: 'httpd -D FOREGROUND'
+[Sat Apr 24 15:39:43.391633 2021] [mpm_event:notice] [pid 1:tid 139849812364104] AH00492: caught SIGWINCH, shutting down gracefully
+[Sat Apr 24 15:39:48.285252 2021] [mpm_event:notice] [pid 1:tid 139863895268168] AH00489: Apache/2.4.46 (Unix) configured -- resuming normal operations
+[Sat Apr 24 15:39:48.285349 2021] [core:notice] [pid 1:tid 139863895268168] AH00094: Command line: 'httpd -D FOREGROUND'
+[Sat Apr 24 15:39:53.297302 2021] [proxy_fcgi:error] [pid 8:tid 139863891430200] [client 192.168.16.1:37258] AH01071: Got error 'Primary script unknown'
+[Sat Apr 24 15:39:54.802415 2021] [proxy_fcgi:error] [pid 8:tid 139863891143480] [client 192.168.16.1:37258] AH01071: Got error 'Primary script unknown'
+[Sat Apr 24 15:39:55.263880 2021] [proxy_fcgi:error] [pid 8:tid 139863891000120] [client 192.168.16.1:37258] AH01071: Got error 'Primary script unknown'
+[Sat Apr 24 15:40:44.568041 2021] [proxy_fcgi:error] [pid 10:tid 139863891430200] [client 192.168.16.1:37256] AH01071: Got error 'Primary script unknown'
+[Sat Apr 24 15:40:53.231168 2021] [mpm_event:notice] [pid 1:tid 139863895268168] AH00492: caught SIGWINCH, shutting down gracefully
+[Sat Apr 24 15:41:08.358833 2021] [mpm_event:notice] [pid 1:tid 139711361411912] AH00489: Apache/2.4.46 (Unix) configured -- resuming normal operations
+[Sat Apr 24 15:41:08.359092 2021] [core:notice] [pid 1:tid 139711361411912] AH00094: Command line: 'httpd -D FOREGROUND'
+[Sat Apr 24 15:41:09.730330 2021] [proxy_fcgi:error] [pid 9:tid 139711357573944] [client 192.168.32.1:36960] AH01071: Got error 'Primary script unknown'
+[Sat Apr 24 15:41:10.474742 2021] [proxy_fcgi:error] [pid 9:tid 139711357430584] [client 192.168.32.1:36960] AH01071: Got error 'Primary script unknown'
+[Sat Apr 24 15:41:10.819527 2021] [proxy_fcgi:error] [pid 9:tid 139711357287224] [client 192.168.32.1:36960] AH01071: Got error 'Primary script unknown'
+[Sat Apr 24 15:41:10.959884 2021] [proxy_fcgi:error] [pid 9:tid 139711357143864] [client 192.168.32.1:36960] AH01071: Got error 'Primary script unknown'
+[Sat Apr 24 15:41:17.171381 2021] [mpm_event:notice] [pid 1:tid 139711361411912] AH00492: caught SIGWINCH, shutting down gracefully
+[Sat Apr 24 15:44:49.802480 2021] [mpm_event:notice] [pid 1:tid 140428256975688] AH00489: Apache/2.4.46 (Unix) configured -- resuming normal operations
+[Sat Apr 24 15:44:49.802577 2021] [core:notice] [pid 1:tid 140428256975688] AH00094: Command line: 'httpd -D FOREGROUND'
+[Sat Apr 24 15:44:54.591034 2021] [proxy_fcgi:error] [pid 10:tid 140428253137720] [client 192.168.48.1:36574] AH01071: Got error 'Primary script unknown'
+[Sat Apr 24 15:44:55.284295 2021] [proxy_fcgi:error] [pid 10:tid 140428252994360] [client 192.168.48.1:36574] AH01071: Got error 'Primary script unknown'
+[Sat Apr 24 15:44:55.882856 2021] [proxy_fcgi:error] [pid 10:tid 140428252851000] [client 192.168.48.1:36574] AH01071: Got error 'Primary script unknown'
+[Sat Apr 24 15:45:00.151651 2021] [mpm_event:notice] [pid 1:tid 140428256975688] AH00492: caught SIGWINCH, shutting down gracefully
+[Sat Apr 24 15:46:54.574832 2021] [mpm_event:notice] [pid 1:tid 140370594622280] AH00489: Apache/2.4.46 (Unix) configured -- resuming normal operations
+[Sat Apr 24 15:46:54.575076 2021] [core:notice] [pid 1:tid 140370594622280] AH00094: Command line: 'httpd -D FOREGROUND'
+[Sat Apr 24 15:46:56.656983 2021] [proxy_fcgi:error] [pid 10:tid 140370590784312] [client 192.168.64.1:38134] AH01071: Got error 'PHP message: Xdebug could not open the remote debug file '/tmp/xdebug.log'.'
+[Sat Apr 24 15:47:13.323058 2021] [mpm_event:notice] [pid 1:tid 140370594622280] AH00492: caught SIGWINCH, shutting down gracefully
+[Sat Apr 24 15:47:37.132453 2021] [mpm_event:notice] [pid 1:tid 139680716843848] AH00489: Apache/2.4.46 (Unix) configured -- resuming normal operations
+[Sat Apr 24 15:47:37.132565 2021] [core:notice] [pid 1:tid 139680716843848] AH00094: Command line: 'httpd -D FOREGROUND'
+[Sat Apr 24 15:47:42.429671 2021] [proxy_fcgi:error] [pid 9:tid 139680713005880] [client 192.168.80.1:59434] AH01071: Got error 'PHP message: Xdebug could not open the remote debug file '/tmp/xdebug.log'.'
+[Sat Apr 24 15:49:53.554845 2021] [mpm_event:notice] [pid 1:tid 139680716843848] AH00492: caught SIGWINCH, shutting down gracefully
+[Sat Apr 24 15:49:58.402753 2021] [mpm_event:notice] [pid 1:tid 140422475340616] AH00489: Apache/2.4.46 (Unix) configured -- resuming normal operations
+[Sat Apr 24 15:49:58.402867 2021] [core:notice] [pid 1:tid 140422475340616] AH00094: Command line: 'httpd -D FOREGROUND'
+[Sat Apr 24 15:50:00.372957 2021] [proxy_fcgi:error] [pid 10:tid 140422471502648] [client 192.168.112.1:39526] AH01071: Got error 'PHP message: Xdebug could not open the remote debug file '/tmp/xdebug.log'.'
+[Sat Apr 24 15:50:01.185803 2021] [proxy_fcgi:error] [pid 10:tid 140422471215928] [client 192.168.112.1:39526] AH01071: Got error 'PHP message: Xdebug could not open the remote debug file '/tmp/xdebug.log'.'
+[Sat Apr 24 15:52:26.071863 2021] [mpm_event:notice] [pid 1:tid 140422475340616] AH00492: caught SIGWINCH, shutting down gracefully
+[Sat Apr 24 15:52:31.045767 2021] [mpm_event:notice] [pid 1:tid 140505964194632] AH00489: Apache/2.4.46 (Unix) configured -- resuming normal operations
+[Sat Apr 24 15:52:31.045888 2021] [core:notice] [pid 1:tid 140505964194632] AH00094: Command line: 'httpd -D FOREGROUND'
+[Sat Apr 24 15:52:58.685979 2021] [proxy_fcgi:error] [pid 10:tid 140505960356664] [client 192.168.128.1:45980] AH01071: Got error 'Primary script unknown'
+[Sat Apr 24 15:53:06.143859 2021] [proxy_fcgi:error] [pid 11:tid 140505960356664] [client 192.168.128.1:45986] AH01071: Got error 'PHP message: Xdebug could not open the remote debug file '/tmp/xdebug.log'.'
+[Sat Apr 24 15:53:58.709729 2021] [proxy_fcgi:error] [pid 10:tid 140505959926584] [client 192.168.128.1:45996] AH01071: Got error 'PHP message: Xdebug could not open the remote debug file '/tmp/xdebug.log'.'
+[Sat Apr 24 15:54:03.370828 2021] [proxy_fcgi:error] [pid 10:tid 140505960069944] [client 192.168.128.1:45996] AH01071: Got error 'PHP message: Xdebug could not open the remote debug file '/tmp/xdebug.log'.'
+[Sat Apr 24 15:54:04.044741 2021] [proxy_fcgi:error] [pid 10:tid 140505959783224] [client 192.168.128.1:45996] AH01071: Got error 'PHP message: Xdebug could not open the remote debug file '/tmp/xdebug.log'.'
+[Sat Apr 24 15:55:37.288357 2021] [mpm_event:notice] [pid 1:tid 140505964194632] AH00492: caught SIGWINCH, shutting down gracefully
+[Sat Apr 24 15:56:02.427194 2021] [mpm_event:notice] [pid 1:tid 140485604445000] AH00489: Apache/2.4.46 (Unix) configured -- resuming normal operations
+[Sat Apr 24 15:56:02.427311 2021] [core:notice] [pid 1:tid 140485604445000] AH00094: Command line: 'httpd -D FOREGROUND'
+[Sat Apr 24 15:56:05.969142 2021] [proxy_fcgi:error] [pid 9:tid 140485600463672] [client 192.168.160.1:52436] AH01071: Got error 'PHP message: Xdebug could not open the remote debug file '/tmp/xdebug.log'.'
+[Sat Apr 24 15:56:11.378620 2021] [proxy_fcgi:error] [pid 10:tid 140485600607032] [client 192.168.160.1:52440] AH01071: Got error 'PHP message: Xdebug could not open the remote debug file '/tmp/xdebug.log'.'
+[Sat Apr 24 15:56:14.730546 2021] [mpm_event:notice] [pid 1:tid 140485604445000] AH00492: caught SIGWINCH, shutting down gracefully
+[Sat Apr 24 16:01:15.938123 2021] [mpm_event:notice] [pid 1:tid 140610493512520] AH00489: Apache/2.4.46 (Unix) configured -- resuming normal operations
+[Sat Apr 24 16:01:15.938238 2021] [core:notice] [pid 1:tid 140610493512520] AH00094: Command line: 'httpd -D FOREGROUND'
+[Sat Apr 24 16:01:31.330346 2021] [proxy_fcgi:error] [pid 9:tid 140610489674552] [client 192.168.176.1:60426] AH01071: Got error 'PHP message: Xdebug could not open the remote debug file '/tmp/xdebug.log'.'
+[Sat Apr 24 16:02:26.659117 2021] [mpm_event:notice] [pid 1:tid 140610493512520] AH00492: caught SIGWINCH, shutting down gracefully
+[Sat Apr 24 16:02:52.245022 2021] [mpm_event:notice] [pid 1:tid 140165562448712] AH00489: Apache/2.4.46 (Unix) configured -- resuming normal operations
+[Sat Apr 24 16:02:52.245267 2021] [core:notice] [pid 1:tid 140165562448712] AH00094: Command line: 'httpd -D FOREGROUND'
+[Sat Apr 24 16:03:32.559346 2021] [mpm_event:notice] [pid 1:tid 140165562448712] AH00492: caught SIGWINCH, shutting down gracefully
+[Sat Apr 24 16:17:53.766658 2021] [mpm_event:notice] [pid 1:tid 140222112160584] AH00489: Apache/2.4.46 (Unix) configured -- resuming normal operations
+[Sat Apr 24 16:17:53.766866 2021] [core:notice] [pid 1:tid 140222112160584] AH00094: Command line: 'httpd -D FOREGROUND'
+[Sat Apr 24 16:18:38.318994 2021] [proxy_fcgi:error] [pid 10:tid 140222108322616] [client 172.20.0.1:44094] AH01071: Got error 'PHP message: Xdebug could not open the remote debug file '/tmp/xdebug.log'.'
+[Sat Apr 24 16:18:56.513946 2021] [proxy_fcgi:error] [pid 9:tid 140222108179256] [client 172.20.0.1:44098] AH01071: Got error 'PHP message: Xdebug could not open the remote debug file '/tmp/xdebug.log'.'
+[Sat Apr 24 16:19:10.883981 2021] [proxy_fcgi:error] [pid 92:tid 140222108322616] [client 172.20.0.1:44108] AH01071: Got error 'PHP message: Xdebug could not open the remote debug file '/tmp/xdebug.log'.'
+[Sat Apr 24 16:19:17.014799 2021] [proxy_fcgi:error] [pid 92:tid 140222108179256] [client 172.20.0.1:44108] AH01071: Got error 'PHP message: Xdebug could not open the remote debug file '/tmp/xdebug.log'.'
+[Sat Apr 24 16:19:20.742184 2021] [proxy_fcgi:error] [pid 92:tid 140222108035896] [client 172.20.0.1:44108] AH01071: Got error 'PHP message: Xdebug could not open the remote debug file '/tmp/xdebug.log'.'
+[Sat Apr 24 16:19:49.375736 2021] [proxy_fcgi:error] [pid 92:tid 140222107605816] [client 172.20.0.1:44120] AH01071: Got error 'PHP message: Xdebug could not open the remote debug file '/tmp/xdebug.log'.'
+[Sat Apr 24 16:20:51.358136 2021] [proxy_fcgi:error] [pid 92:tid 140222106901304] [client 172.20.0.1:44172] AH01071: Got error 'PHP message: Xdebug could not open the remote debug file '/tmp/xdebug.log'.'
+[Sat Apr 24 16:21:18.174766 2021] [proxy_fcgi:error] [pid 92:tid 140222106471224] [client 172.20.0.1:44174] AH01071: Got error 'PHP message: Xdebug could not open the remote debug file '/tmp/xdebug.log'.'
+[Sat Apr 24 16:21:42.476614 2021] [proxy_fcgi:error] [pid 92:tid 140222106041144] [client 172.20.0.1:44184] AH01071: Got error 'PHP message: Xdebug could not open the remote debug file '/tmp/xdebug.log'.'
+[Sat Apr 24 16:21:54.953958 2021] [mpm_event:notice] [pid 1:tid 140222112160584] AH00492: caught SIGWINCH, shutting down gracefully
+[Sat Apr 24 19:09:21.281519 2021] [mpm_event:notice] [pid 1:tid 139950333918024] AH00489: Apache/2.4.46 (Unix) configured -- resuming normal operations
+[Sat Apr 24 19:09:21.281612 2021] [core:notice] [pid 1:tid 139950333918024] AH00094: Command line: 'httpd -D FOREGROUND'
+[Sat Apr 24 19:09:30.585230 2021] [proxy_fcgi:error] [pid 9:tid 139950330080056] [client 172.22.0.1:42522] AH01071: Got error 'PHP message: Xdebug could not open the remote debug file '/tmp/xdebug.log'.'
+[Sat Apr 24 19:10:41.330435 2021] [proxy_fcgi:error] [pid 8:tid 139950329793336] [client 172.22.0.1:42558] AH01071: Got error 'PHP message: Xdebug could not open the remote debug file '/tmp/xdebug.log'.'
+[Sat Apr 24 19:11:39.903958 2021] [proxy_fcgi:error] [pid 10:tid 139950330080056] [client 172.22.0.1:42606] AH01071: Got error 'PHP message: Xdebug could not open the remote debug file '/tmp/xdebug.log'.'
+[Sat Apr 24 19:13:28.391692 2021] [mpm_event:notice] [pid 1:tid 139950333918024] AH00492: caught SIGWINCH, shutting down gracefully
+[Sat Apr 24 19:14:05.387032 2021] [mpm_event:notice] [pid 1:tid 139759919651656] AH00489: Apache/2.4.46 (Unix) configured -- resuming normal operations
+[Sat Apr 24 19:14:05.387120 2021] [core:notice] [pid 1:tid 139759919651656] AH00094: Command line: 'httpd -D FOREGROUND'
+[Sat Apr 24 19:14:46.466106 2021] [mpm_event:notice] [pid 1:tid 139759919651656] AH00492: caught SIGWINCH, shutting down gracefully
+[Sat Apr 24 19:15:59.423017 2021] [mpm_event:notice] [pid 1:tid 140060263394120] AH00489: Apache/2.4.46 (Unix) configured -- resuming normal operations
+[Sat Apr 24 19:15:59.423379 2021] [core:notice] [pid 1:tid 140060263394120] AH00094: Command line: 'httpd -D FOREGROUND'
+[Sat Apr 24 19:16:26.465943 2021] [mpm_event:notice] [pid 1:tid 140060263394120] AH00492: caught SIGWINCH, shutting down gracefully
