@@ -11,6 +11,7 @@ services:
 #    ports:
 #      - "82:80"
 #    volumes:
+#      - project:/var/www
 #      - ./.docker/apache/config/apache.conf:/usr/local/apache2/conf.d/apache.conf
 #      - ./.docker/apache/logs/:/usr/local/apache2/logs
 #    depends_on:
@@ -27,6 +28,7 @@ services:
 #    ports:
 #      - "83:80"
 #    volumes:
+#      - project:/var/www
 #      - ./.docker/nginx/config/default.conf:/etc/nginx/conf.d/default.conf
 #      - ./.docker/nginx/logs/:/var/log/nginx
 #    depends_on:
@@ -54,21 +56,21 @@ services:
       - apache
       - nginx
 
-  db: # select database
+  db:
     build:
       context: .
-    #      dockerfile: ./.docker/db/mysql_5.6/Dockerfile
-    #      dockerfile: ./.docker/db/mysql_5.7/Dockerfile
-    #      dockerfile: ./.docker/db/mariadb_10.3/Dockerfile
+#      dockerfile: ./.docker/db/mysql_5.6/Dockerfile
+#      dockerfile: ./.docker/db/mysql_5.7/Dockerfile
+#      dockerfile: ./.docker/db/mariadb_10.3/Dockerfile
     container_name: db
     restart: unless-stopped
     ports:
       - "3306:3306"
     volumes:
-      #      - ./.docker/db/mariadb_10.3/data:/var/lib/mysql
-      #      - ./.docker/db/mysql_5.6/data:/var/lib/mysql
-      #      - ./.docker/db/mysql_5.7/data:/var/lib/mysql
-      #      - ./.docker/dump_db/:/docker-entrypoint-initdb.d/    # dump autoload - я не пользуюсь, гружу вручную
+#      - ./.docker/db/mariadb_10.3/data:/var/lib/mysql
+#      - ./.docker/db/mysql_5.6/data:/var/lib/mysql
+#      - ./.docker/db/mysql_5.7/data:/var/lib/mysql
+#      - ./.docker/dump_db/:/docker-entrypoint-initdb.d/    # dump autoload - я не пользуюсь, гружу вручную
       - project:/var/www
     environment:
       - MYSQL_HOST=127.0.0.1

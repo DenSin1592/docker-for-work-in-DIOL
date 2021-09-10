@@ -50,7 +50,7 @@ RUN curl -sS https://getcomposer.org/installer | \
 
 ENV COMPOSER_ALLOW_SUPERUSER=1
 
-ADD php.ini /usr/local/etc/php/php.ini
+ADD ./.docker/php/php_7.4/php.ini /usr/local/etc/php/php.ini
 
 ENV USER=denisl
 ENV UID=1000
@@ -61,7 +61,6 @@ RUN adduser \
     --disabled-password \
     --gecos "" \
     --ingroup "$USER" \
-    --no-create-home \
     --uid "$UID" \
     "$USER"
 
