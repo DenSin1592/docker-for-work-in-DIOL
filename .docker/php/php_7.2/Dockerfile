@@ -51,8 +51,6 @@ ENV COMPOSER_ALLOW_SUPERUSER=1
 
 ADD ./.docker/php/php_7.2/php.ini /usr/local/etc/php/php.ini
 
-WORKDIR /var/www
-
 ENV USER=denisl
 ENV UID=1000
 ENV GID=1000
@@ -66,6 +64,6 @@ RUN adduser \
     --uid "$UID" \
     "$USER"
 
-COPY . /var/www
-COPY --chown="$USER":"$USER" . /var/www
 USER "$USER"
+
+WORKDIR /var/www
