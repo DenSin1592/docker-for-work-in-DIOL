@@ -67,9 +67,9 @@ services:
     ports:
       - "3306:3306"
     volumes:
-#      - ./.docker/db/mariadb_10.3/data:/var/lib/mysql
 #      - ./.docker/db/mysql_5.6/data:/var/lib/mysql
 #      - ./.docker/db/mysql_5.7/data:/var/lib/mysql
+#      - ./.docker/db/mariadb_10.3/data:/var/lib/mysql
 #      - ./.docker/dump_db/:/docker-entrypoint-initdb.d/    # dump autoload - я не пользуюсь, гружу вручную
       - .:/var/www
     environment:
