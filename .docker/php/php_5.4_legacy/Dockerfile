@@ -84,7 +84,7 @@
 #    php -- --install-dir=/usr/bin/ --filename=composer
 #
 #ENV COMPOSER_ALLOW_SUPERUSER=1
-#RUN composer selfupdate --stable
+#RUN composer selfupdate --1
 #
 #ADD php.ini /usr/local/etc/php/php.ini
 #

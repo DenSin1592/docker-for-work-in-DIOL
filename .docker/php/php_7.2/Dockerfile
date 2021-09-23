@@ -48,7 +48,7 @@ RUN curl -sS https://getcomposer.org/installer | \
     php -- --install-dir=/usr/bin/ --filename=composer
 
 ENV COMPOSER_ALLOW_SUPERUSER=1
-#RUN composer selfupdate --stable
+#RUN composer selfupdate --1
 
 ADD ./.docker/php/php_7.2/php.ini /usr/local/etc/php/php.ini
 
