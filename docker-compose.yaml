@@ -61,6 +61,7 @@ services:
       context: .
 #      dockerfile: ./.docker/db/mysql_5.6/Dockerfile
 #      dockerfile: ./.docker/db/mysql_5.7/Dockerfile
+#      dockerfile: ./.docker/db/mysql_8.0/Dockerfile
 #      dockerfile: ./.docker/db/mariadb_10.3/Dockerfile
     container_name: db
     restart: unless-stopped
@@ -69,6 +70,7 @@ services:
     volumes:
 #      - ./.docker/db/mysql_5.6/data:/var/lib/mysql
 #      - ./.docker/db/mysql_5.7/data:/var/lib/mysql
+#      - ./.docker/db/mysql_8.0/data:/var/lib/mysql
 #      - ./.docker/db/mariadb_10.3/data:/var/lib/mysql
 #      - ./.docker/dump_db/:/docker-entrypoint-initdb.d/    # dump autoload - я не пользуюсь, гружу вручную
       - .:/var/www
@@ -98,15 +100,15 @@ services:
     networks:
       - web-phpmyadmin
 
-  redis:
-    image: redis:alpine
-    container_name: redis
-    ports:
-      - "6379:6379"
-    restart: unless-stopped
-    networks:
-      - apache
-      - nginx
+# redis:
+#    image: redis:alpine
+#    container_name: redis
+#    ports:
+#      - "6379:6379"
+#    restart: unless-stopped
+#    networks:
+#      - apache
+#      - nginx
 
 networks:
   apache:
