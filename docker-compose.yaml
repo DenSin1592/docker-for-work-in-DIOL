@@ -39,7 +39,7 @@ services:
   php:
     build:
       context: .
-#      dockerfile: ./.docker/php/php_5.4_legacy/Dockerfile
+#      dockerfile: ./.docker/php/php_5.4_legacy_diol/Dockerfile
 #      dockerfile: ./.docker/php/php_5.4/Dockerfile
 #      dockerfile: ./.docker/php/php_7.2/Dockerfile
 #      dockerfile: ./.docker/php/php_7.4/Dockerfile

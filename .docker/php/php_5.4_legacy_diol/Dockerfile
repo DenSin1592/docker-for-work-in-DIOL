@@ -81,7 +81,7 @@ RUN curl -sS https://getcomposer.org/installer | \
 ENV COMPOSER_ALLOW_SUPERUSER=1
 RUN composer selfupdate --1
 
-ADD ./.docker/php/php_5.4_legacy/php.ini  /usr/local/etc/php/php.ini
+ADD ./.docker/php/php_5.4_legacy_diol/php.ini  /usr/local/etc/php/php.ini
 
 ENV USER=denisl
 ENV UID=1000
